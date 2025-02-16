@@ -17,6 +17,8 @@
     --background: #0a0a0a;
     --foreground: #ededed;
     --primaryColor: #461a00;
+    --primaryColorTransparent: #461a00e8;
+    --secondaryColor: #383026;
   }
 }
 
