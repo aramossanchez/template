@@ -16,6 +16,7 @@ export default {
         foreground: 'var(--foreground)',
         primaryColor: 'var(--primaryColor)',
         primaryColorTransparent: 'var(--primaryColorTransparent)',
+        secondaryColor: 'var(--secondaryColor)',
       },
       height: {
         headerHeight: 'var(--headerHeight)',

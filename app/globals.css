@@ -7,6 +7,7 @@
   --foreground: #171717;
   --primaryColor: #86e7ff;
   --primaryColorTransparent: #86e7ffe8;
+  --secondaryColor: #ffd8a4;
   --headerHeight: 7vh;
   --bodyHeight: 93vh;
 }
@@ -60,11 +61,22 @@ body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  padding: 7.5% 2% 15% 2%;
+  padding: 0 0 15% 0;
   align-items: center;
 }
 .section_style {
-  max-width: 1200px;
+  width: 100%;
+  padding: 5% 0 10% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section_style > div {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2em;
 }
 
 @media (max-width: 1300px) {
