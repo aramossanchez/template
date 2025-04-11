@@ -6,13 +6,13 @@ import TitleComponent from '@/components/titleComponent/TitleComponent';
 import useScreenObserver from '@/hooks/useScreenObserver';
 import React from 'react';
 
-export default function FirstSection() {
+export default function SecondSection() {
   const { isOnScreen, refCallback } = useScreenObserver();
 
   const titleStyle = isOnScreen ? 'animate-showTopToCenter' : 'opacity-0';
 
   return (
-    <section className="section_style bg-gradient-to-b from-background via-background to-secondaryColor">
+    <section className="section_style bg-tertiaryColor">
       <div>
         <header ref={refCallback} className={`${titleStyle}`}>
           <TitleComponent text="Título de prueba" />

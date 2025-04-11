@@ -5,30 +5,36 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primaryColor: #86e7ff;
-  --primaryColorTransparent: #86e7ffe8;
-  --secondaryColor: #ffd8a4;
-  --headerHeight: 7vh;
-  --bodyHeight: 93vh;
+  --primaryColor: #450920;
+  --primaryColorTransparent: #450920cc;
+  --secondaryColor: #ffa5ab;
+  --tertiaryColor: #da627d;
+  --quaternaryColor: #a53860;
+  --whatsappColor: #25d366;
+  --headerHeight: 175px;
+  --headerHeightMobile: 100px;
+  --bodyHeight: 80vh;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --primaryColor: #461a00;
-    --primaryColorTransparent: #461a00e8;
-    --secondaryColor: #383026;
+    --background: #ffffff;
+    --foreground: #171717;
+    --primaryColor: #450920;
+    --primaryColorTransparent: #450920cc;
+    --secondaryColor: #ffa5ab;
+    --tertiaryColor: #da627d;
+    --quaternaryColor: #a53860;
   }
 }
 
 ::-moz-selection {
-  color: var(--foreground);
+  color: var(--background);
   background: var(--primaryColor);
 }
 
 ::selection {
-  color: var(--foreground);
+  color: var(--background);
   background: var(--primaryColor);
 }
 
