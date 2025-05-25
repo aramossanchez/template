@@ -9,10 +9,16 @@ const bree_serif = Bree_Serif({
 
 interface TitleComponentProps {
   text: string;
+  className?: string;
 }
 
-export default function TitleComponent({ text }: TitleComponentProps) {
+export default function TitleComponent({
+  text,
+  className,
+}: TitleComponentProps) {
   return (
-    <h1 className={`${bree_serif.className} text-5xl text-center`}>{text}</h1>
+    <h1 className={`${bree_serif.className} ${className} text-5xl text-center`}>
+      {text}
+    </h1>
   );
 }

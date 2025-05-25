@@ -25,7 +25,7 @@ export default function Header() {
     >
       <Link href="/" className="h-full">
         <Image
-          src={`${basePath}images/logo.webp`}
+          src={`${basePath}images/logo.png`}
           width={500}
           height={500}
           alt="Logo"

@@ -4,8 +4,8 @@ export const NAVIGATION_INITIATED_SCROLL = 100;
 
 export const HEADER_LINKS = [
   {
-    label: 'LINK 1',
-    url: '/',
+    label: 'BLOG',
+    url: '/blog',
   },
   {
     label: 'LINK 2',
